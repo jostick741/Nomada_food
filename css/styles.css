@@ -8,23 +8,20 @@ bbody {
   font-weight: bold;
 }
 
-/* Ocultar   */
 #menu-toggle {
   display: none;
 }
 
-/* Icono hamburguesa */
 .menu-icon {
   display: block;
   font-size: 26px;
   cursor: pointer;
 }
 
-/* Navegación oculta por defecto */
 nav {
   display: none;
   flex-direction: column;
-  background: #e1e68b;
+  background: #9fd1ee;
   position: absolute;
   top: 60px;
   left: 0;
@@ -41,10 +38,12 @@ nav a {
   display: block;
 }
 
-/* Mostrar nav cuando el checkbox está marcado */
 #menu-toggle:checked ~ nav {
   display: flex;
 }
+
+}
+
 
 
 
