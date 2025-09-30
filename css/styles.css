@@ -1,0 +1,50 @@
+
+bbody {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+/* Ocultar   */
+#menu-toggle {
+  display: none;
+}
+
+/* Icono hamburguesa */
+.menu-icon {
+  display: block;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Navegación oculta por defecto */
+nav {
+  display: none;
+  flex-direction: column;
+  background: #e1e68b;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #e1d9d9d1;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: block;
+}
+
+/* Mostrar nav cuando el checkbox está marcado */
+#menu-toggle:checked ~ nav {
+  display: flex;
+}
+
+
+
