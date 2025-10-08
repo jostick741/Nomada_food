@@ -1,0 +1,21 @@
+<style>
+    nav ul {
+        list-style: none;   
+        padding: 0;
+        margin: 0;
+        display: flex;      
+        gap: 20px;          
+        justify-content: center; 
+    }
+
+    nav ul li a {
+        text-decoration: none; 
+        color: rgb(95, 50, 5);          
+        font-size: 25px;       
+        font-weight: bold;     
+    }
+
+    nav ul li a:hover {
+        color: rgb(204, 203, 200);
+    }
+</style>
