@@ -14,27 +14,28 @@ bbody {
 
 .menu-icon {
   display: block;
-  font-size: 26px;
+  font-size: 20px;
   cursor: pointer;
 }
 
 nav {
   display: none;
   flex-direction: column;
-  background: #9fd1ee;
+  background: #91c3e0;
   position: absolute;
   top: 60px;
-  left: 0;
+  right: 0;
   width: 100%;
-  border-top: 1px solid #e1d9d9d1;
+  border-top: 1px solid #082fa6d1;
 }
+
 
 nav a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
   padding: 15px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #1433a6;
   display: block;
 }
 
@@ -42,7 +43,6 @@ nav a {
   display: flex;
 }
 
-}
 
 
 
