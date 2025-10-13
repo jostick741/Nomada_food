@@ -1,2 +1,14 @@
 body {background-color: azure;}
 h2 {color: blueviolet;}
+body {
+      background-image: url( ../images/MENU.jpg);
+  background-size: cover;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+h1 {text-align: center;
+color: aqua;
+}
+
+
+p {color: rgb(255, 0, 115);}
